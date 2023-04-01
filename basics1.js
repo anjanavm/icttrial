@@ -18,8 +18,24 @@ while (i <=10) {
 console.log("The sum is" , sum );
 
 
-//
-let student=["anjana","soba","tinu"];
+//use of backtick
+let student=["anjana","sobha","tinu"];
 for (let i of student){
     console.log(`hello ${i}`);
 }
+
+
+// Increment
+let a=1;
+let b=a++;
+console.log(a);
+console.log(typeof(b));
+
+
+// To create an object
+let person= {
+    name: "anjana", age: 23
+
+}
+console.log(person.age)
+
